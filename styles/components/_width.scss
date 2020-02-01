@@ -1,0 +1,12 @@
+
+width-1-1{
+width:100%;
+}
+@for $f from 1 through 5{
+ 
+ @for $s from $f+1 through 6 {
+ .width-#{$f}-#{$s}{
+   width:$f*100%/$s;
+ }
+ }
+}

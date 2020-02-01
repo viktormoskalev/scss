@@ -1,0 +1,16 @@
+.hiro{
+background-image: url(../images/hiro.jpg);
+  background-attachment: scroll;
+  background-size: cover ;
+  &.section {
+    padding: 140px 0;
+  }
+  &-title{
+    @include bfzc(33px,  white);
+  }
+  &-subtitle{
+    font-size: 14px;
+    color: rgba(247, 247, 247, 0.83);
+    margin-bottom: 10px;
+  }
+}

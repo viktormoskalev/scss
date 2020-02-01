@@ -1,0 +1,32 @@
+$primary-color:white;
+$primary-bgc:#f71010;
+
+.button {
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  &-primary{
+    background-color: $primary-bgc;
+    color:$primary-color;
+  }
+  &:hover{
+    cursor: pointer;
+  }
+  &-primary:hover{
+    background-color:darken($primary-bgc,10%);
+  }
+  &-full{
+    width: 100%;
+  }
+}
+
+

@@ -1,0 +1,10 @@
+.header{
+  .logo{
+    @include bfzc(36px,black);
+  }
+  min-height: 60px;
+  .grid{
+    min-height: 60px;
+    align-items: center;
+  }
+  }

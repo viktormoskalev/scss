@@ -1,0 +1,14 @@
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -20px;
+}
+
+.grid-item{
+  padding: 20px;
+}
+
+.space-between{
+    display: flex;
+  justify-content: space-between;
+}
