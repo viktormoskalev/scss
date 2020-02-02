@@ -6,19 +6,18 @@
 $m-color:#696969;
 $dark-color:#2e2e2e;
 
-@mixin bfzc($fz, $color ) {
- font-weight: 900;
+@mixin bfzc($fz, $color) {
+  font-weight: 900;
   font-size: $fz;
-  color:$color;
+  color: $color;
 }
 
 .wrapper {
   position: relative;
   overflow: hidden;
-display: flex;
-	flex-direction: column;
-	min-height:100vh;
-
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 a {
@@ -43,7 +42,7 @@ p {
 
 h1,
 h2 {
- margin: 0 0 15px 0;
+  margin: 0 0 15px 0;
 }
 
 img {
@@ -59,20 +58,22 @@ img {
   margin: 0 auto;
 }
 
-.content{
+.content {
   flex: 1 0 auto;
 }
 
-.footer{
+.footer {
   background-color: #000000;
   flex: 0 0 auto;
   padding: 30px 0;
-  a{
+
+  a {
     font-size: 34px;
     margin-left: 15px;
     color: aliceblue;
-    &:hover{
-      color:red;
+
+    &:hover {
+      color: red;
     }
   }
 }

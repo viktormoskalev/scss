@@ -1,23 +1,27 @@
-.nav{
+.nav {
   min-height: 60px;
 }
-.nav-item{
-margin-left: 40px;
-  a{
+
+.nav-item {
+  margin-left: 40px;
+
+  a {
     display: flex;
     align-items: center;
     height: 100%;
     border-bottom: solid transparent 2px;
   }
-  a:hover{
+
+  a:hover {
     border-bottom: solid red 2px;
-    color:red;
-      }
-  span{
-    color:antiquewhite;
-     display: flex;
+    color: red;
+  }
+
+  span {
+    color: #ba6a00;
+    display: flex;
     align-items: center;
     height: 100%;
-     border-bottom: solid transparent 2px;
+    border-bottom: solid transparent 2px;
   }
 }
